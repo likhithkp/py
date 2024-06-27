@@ -1,6 +1,1 @@
-import os
-
-contents = os.listdir("/home/likhithkp/Documents/code/py")
-
-for file in contents:
-    print("Hello")
+print(3**2)
