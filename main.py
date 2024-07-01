@@ -1,10 +1,2 @@
-age = 27
-
-if age == 23:
-    print("You are of age")
-
-elif age >= 23:
-   print("You are of age")
-
-else:
-    print("You are not legal")
+a = int(input("Enter the number"))
+print(f"The rem is a {a ** 2}")
