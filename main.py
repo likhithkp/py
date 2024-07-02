@@ -1,11 +1,8 @@
-password = "qwerty"
+import pyjokes
 
-def get_passwd():
-    passwd = input("Enter the password\n")
-    if passwd != password:
-        print("Wrong password")
-        get_passwd()
-    else:
-        print("Welcome!!")
+def get_joke():
+    joke = pyjokes.get_joke()
+    print(joke)
+    return
 
-get_passwd()
+get_joke()
