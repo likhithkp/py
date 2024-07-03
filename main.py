@@ -2,7 +2,7 @@ import pyjokes
 
 def get_joke():
     joke = pyjokes.get_joke()
-    print(joke)
-    return
+    return joke
 
-get_joke()
+joke = get_joke()
+print(joke)
