@@ -1,1 +1,1 @@
-print("Pra")
+print("Pr")
