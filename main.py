@@ -1,4 +1,8 @@
-def add(x, y):
-    print(x + y)
+import pyjokes
 
-add(1, 1)
+def get_joke():
+    joke = pyjokes.get_joke()
+    return joke
+
+joke = get_joke()
+print(joke)
