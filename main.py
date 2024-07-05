@@ -1,8 +1,1 @@
-import pyjokes
-
-def get_joke():
-    joke = pyjokes.get_joke()
-    return joke
-
-joke = get_joke()
-print(joke)
+print("Practice")
