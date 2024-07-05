@@ -1,1 +1,1 @@
-print("Practi")
+print("Pract")
