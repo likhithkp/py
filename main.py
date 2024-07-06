@@ -1,4 +1,3 @@
-NAMES = ["Likhith", "Shiba", "Nishanth", "Lauda"]
+NAMES = ("Likhith", "Shiba", "Nishanth", "Lauda")
 
-for name in NAMES:
-    print(type(name))
+print(type(NAMES))
