@@ -1,3 +1,3 @@
-NAMES = ("Likhith", "Shiba", "Nishanth", "Lauda")
+NAMES = ("Likhith", "Shiba", "Nishanth", "Laud")
 
 print(type(NAMES))
