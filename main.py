@@ -1,3 +1,6 @@
-NAMES = ("Likhith", "Shiba")
+a = input("Enter your guess")
 
-print(type(NAMES))
+if type(a) == str:
+    print("Perfect guess")
+else:
+    print("Oops, Try again")
