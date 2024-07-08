@@ -1,2 +1,2 @@
-a = "harry bhai"
-print(a.replace("harry", "lauda"))
+a = input("Enter your input\n")
+print(a)
