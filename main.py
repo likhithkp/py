@@ -3,5 +3,5 @@ words = {
     "name":"lauda",
 }
 
-word = input("Enter a word")
-print(words[word])
+words.update({"hello" : "lauda"})
+print(words)
