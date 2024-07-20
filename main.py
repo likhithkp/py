@@ -2,7 +2,7 @@ password = input("Enter the password")
 
 def login():
     if password == "1234":
-        print("Welcome")
+        print("Welcom")
     else:
         print("Wrong password")
 
