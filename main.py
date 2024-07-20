@@ -5,3 +5,5 @@ def login():
         print("Welcome")
     else:
         print("Wrong password")
+
+login()
